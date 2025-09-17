@@ -51,7 +51,7 @@ def annotate_frame(frame, predictions):
 # =========================
 # STREAMLIT APP
 # =========================
-st.title("Fall Detection Demo (Roboflow + Streamlit)")
+st.title("Hosting the fall detection model")
 
 conf_threshold = st.slider("Confidence Threshold", 0.0, 1.0, 0.2, 0.05)
 
